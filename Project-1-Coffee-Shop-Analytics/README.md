@@ -18,6 +18,19 @@ This project answers:
 4. High-value transaction detection  
 5. Simple predictive modeling (optional)
 
+
+##  Key Findings (Current Data)
+
+Using the available monthly revenue totals (Jan–Jun), we observed:
+
+- Revenue shows an overall upward trend from January to June.
+- February had a small decline compared to January (–$5.5K).
+- The largest increase occurred between April and May (+$37.8K).
+- May and June represent the strongest sales months in the dataset.
+
+These trends suggest increased customer demand starting in spring.
+
+
 ##  Tools Used
 - Python  
 - pandas  
