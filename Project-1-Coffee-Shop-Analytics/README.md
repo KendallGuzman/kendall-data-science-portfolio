@@ -59,7 +59,7 @@ This chart shows the number of transactions by hour.
 - This insight can guide staffing decisions, inventory prep, and promotion timing.
 - In future analysis, we can compare peak hours by store location.
 
-![Transactions by Hour](outputs/transactions_by_hour.png)
+![Transactions by Hour](outputs/transaction_by_hour.png)
 
 
 
