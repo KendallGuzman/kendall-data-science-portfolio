@@ -41,6 +41,17 @@ These trends suggest increased customer demand starting in spring.
 
 ![Revenue by Category](outputs/revenue_by_category.png)
 
+## Monthly Revenue Trend
+
+This chart shows how total revenue changes month to month across the dataset.
+
+- Revenue increases steadily from January through June.
+- The strongest months occur in late spring and early summer, suggesting seasonal growth or increased customer demand.
+- This trend indicates that overall business performance is driven by consistent daily purchases rather than rare bulk transactions.
+
+![Monthly Revenue Trend](outputs/monthly_revenue_trend.png)
+
+
 ##  Tools Used
 - Python  
 - pandas  
