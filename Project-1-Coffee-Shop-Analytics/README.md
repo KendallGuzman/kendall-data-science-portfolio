@@ -27,9 +27,12 @@ Using the available monthly revenue totals (Jan–Jun), we observed:
 - February had a small decline compared to January (–$5.5K).
 - The largest increase occurred between April and May (+$37.8K).
 - May and June represent the strongest sales months in the dataset.
-
 These trends suggest increased customer demand starting in spring.
 
+## Key Findings (Transaction Revenue)
+
+- Most transactions are small, with a median revenue of **$3.75**, meaning a typical customer spends around $3–$4 per purchase.
+- The dataset contains rare high-value transactions up to **$360**, which may represent bulk orders or potential outliers worth investigating.
 
 ##  Tools Used
 - Python  
