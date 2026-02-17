@@ -51,6 +51,16 @@ This chart shows how total revenue changes month to month across the dataset.
 
 ![Monthly Revenue Trend](outputs/monthly_revenue_trend.png)
 
+## Busiest Hours of the Day
+
+This chart shows the number of transactions by hour.
+
+- The peak hours represent the busiest times for the coffee shop.
+- This insight can guide staffing decisions, inventory prep, and promotion timing.
+- In future analysis, we can compare peak hours by store location.
+
+![Transactions by Hour](outputs/transactions_by_hour.png)
+
 
 ##  Tools Used
 - Python  
