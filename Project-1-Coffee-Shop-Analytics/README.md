@@ -61,7 +61,13 @@ This chart shows the number of transactions by hour.
 
 ![Transactions by Hour](outputs/transaction_by_hour.png)
 
+## Revenue by Store Location
 
+- Total revenue is very similar across all three store locations.
+- Hell’s Kitchen generated the highest revenue (~$236K), but only slightly above Astoria and Lower Manhattan.
+- This suggests store performance is consistent, and overall revenue growth is driven more by product demand than location.
+
+![Revenue by Store Location](outputs/revenue_by_store.png)
 
 
 ##  Tools Used
