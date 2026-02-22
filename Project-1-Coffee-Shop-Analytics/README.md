@@ -69,6 +69,14 @@ This chart shows the number of transactions by hour.
 
 ![Revenue by Store Location](outputs/revenue_by_store.png)
 
+## Top Coffee Products by Revenue
+
+After identifying Coffee as the largest revenue category, we drilled down into individual coffee products to identify the highest-performing items.
+
+This helps inform inventory planning and targeted promotions for the most profitable drinks.
+
+![Top Coffee Products](outputs/top_coffee_products.png)
+
 
 ##  Tools Used
 - Python  
