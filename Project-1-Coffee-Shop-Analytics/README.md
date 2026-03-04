@@ -98,6 +98,11 @@ This reveals the relative importance of each product category within the overall
 
 ![Revenue Share by Category](outputs/revenue_share_by_category.png)
 
+The analysis shows that **Coffee accounts for approximately 38% of total revenue**, while **Tea contributes about 28%**.
+
+Together, beverage products generate roughly **two-thirds of the coffee shop’s total revenue**, confirming that drinks are the primary driver of the business.
+
+This insight suggests that strategies focused on beverage promotions, menu innovation, and upselling drinks are likely to have the greatest impact on overall revenue growth.
 
 ##  Tools Used
 - Python  
