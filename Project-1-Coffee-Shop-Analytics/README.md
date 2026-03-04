@@ -90,6 +90,14 @@ When comparing store locations:
 The small differences suggest customer spending behavior is relatively consistent across locations, with Lower Manhattan customers spending slightly more per visit.
 
 
+## Revenue Share by Product Category
+
+To better understand the business structure, revenue was analyzed as a **percentage contribution by product category**.
+
+This reveals the relative importance of each product category within the overall revenue mix.
+
+![Revenue Share by Category](outputs/revenue_share_by_category.png)
+
 
 ##  Tools Used
 - Python  
