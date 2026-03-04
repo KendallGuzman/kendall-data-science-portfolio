@@ -77,6 +77,19 @@ This helps inform inventory planning and targeted promotions for the most profit
 
 ![Top Coffee Products](outputs/top_coffee_products.png)
 
+## Average Order Value (AOV)
+
+The average order value across all transactions is **$4.69 per purchase**, indicating that most customers make relatively small daily purchases typical of a coffee shop environment.
+
+When comparing store locations:
+
+- **Lower Manhattan** shows the highest average order value ($4.81)
+- **Hell's Kitchen** averages $4.66
+- **Astoria** averages $4.59
+
+The small differences suggest customer spending behavior is relatively consistent across locations, with Lower Manhattan customers spending slightly more per visit.
+
+
 
 ##  Tools Used
 - Python  
