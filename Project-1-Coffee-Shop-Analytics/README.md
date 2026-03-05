@@ -104,6 +104,18 @@ Together, beverage products generate roughly **two-thirds of the coffee shop’s
 
 This insight suggests that strategies focused on beverage promotions, menu innovation, and upselling drinks are likely to have the greatest impact on overall revenue growth.
 
+
+## Revenue by Day of Week
+
+Revenue was analyzed across the days of the week to identify demand patterns and potential operational insights.
+
+Understanding which days generate the most revenue helps businesses plan staffing levels, inventory preparation, and promotional campaigns.
+
+The results show that revenue is **remarkably consistent across the entire week**, indicating stable customer demand rather than reliance on specific high-traffic days.
+
+![Revenue by Weekday](outputs/revenue_by_weekday.png)
+
+
 ##  Tools Used
 - Python  
 - pandas  
