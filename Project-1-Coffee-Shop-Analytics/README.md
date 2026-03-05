@@ -1,85 +1,156 @@
 # Coffee Shop Sales Analytics & Customer Insights
 
-##  Business Problem
-A coffee shop wants to better understand customer purchasing behavior and sales trends to improve revenue.
+## Business Problem
 
-##  Project Goal
-This project answers:
+A coffee shop chain wants to better understand its **sales performance and customer purchasing behavior** in order to optimize revenue, inventory management, and staffing decisions.
 
-- What products generate the most revenue?
-- What times of day are busiest?
-- What does a typical transaction look like?
-- Can we identify high-value purchases?
+Despite having large volumes of transaction data, the business lacks clear insights into:
 
-##  Key Steps
-1. Data cleaning  
-2. Exploratory Data Analysis (EDA)  
-3. Sales and revenue visualizations  
-4. High-value transaction detection  
-5. Simple predictive modeling (optional)
+- Which products drive the majority of revenue
+- When customers are most active throughout the day
+- How revenue changes over time
+- Whether certain store locations perform better than others
+- What a typical customer purchase looks like
+
+Using transaction-level sales data, this project analyzes purchasing patterns to uncover actionable insights that can help improve operational efficiency and business strategy.
+
+## Project Goal
+
+The goal of this project is to perform **exploratory data analysis (EDA)** on coffee shop sales data to uncover patterns in revenue generation and customer purchasing behavior.
+
+The analysis focuses on answering the following key questions:
+
+- Which **product categories** generate the most revenue?
+- Which **specific coffee products** are the top performers?
+- How does **revenue change over time**?
+- What are the **busiest hours of the day**?
+- Do **store locations perform differently**?
+- What does a **typical transaction value** look like?
+
+By answering these questions, the analysis provides insights that could support **pricing strategy, staffing decisions, marketing promotions, and inventory planning**.
+
+## Methodology
+
+The analysis followed these main steps:
+
+1. **Data Cleaning**
+   - Verified column types
+   - Created revenue variables
+   - Checked for missing or inconsistent values
+
+2. **Exploratory Data Analysis (EDA)**
+   - Investigated transaction values
+   - Examined purchasing distributions
+
+3. **Revenue Analysis**
+   - Revenue by product category
+   - Revenue by store location
+   - Revenue trends over time
+
+4. **Customer Behavior Analysis**
+   - Transactions by hour of day
+   - Average order value (AOV)
+
+5. **Product Performance Analysis**
+   - Identification of top-performing coffee products
 
 
-##  Key Findings (Current Data)
+## Key Findings
 
-Using the available monthly revenue totals (Jan–Jun), we observed:
+### Revenue Trends
 
-- Revenue shows an overall upward trend from January to June.
-- February had a small decline compared to January (–$5.5K).
-- The largest increase occurred between April and May (+$37.8K).
-- May and June represent the strongest sales months in the dataset.
-These trends suggest increased customer demand starting in spring.
+- Revenue shows a clear **upward trend from January through June**.
+- The largest increase occurs between **April and May**, suggesting increased customer demand during late spring.
+- May and June represent the **strongest revenue months** in the dataset.
 
-## (Transaction Revenue)
+### Transaction Behavior
 
-- Most transactions are small, with a median revenue of **$3.75**, meaning a typical customer spends around $3–$4 per purchase.
-- The dataset contains rare high-value transactions up to **$360**, which may represent bulk orders or potential outliers worth investigating.
-- The highest revenue transactions come from bulk purchases of Premium Coffee Beans (8 units at $45 each), suggesting that bean sales contribute disproportionately to revenue despite being rare.
-- The highest-value transactions ($360 Premium Beans bulk orders) occur extremely rarely (only 10 purchases, 0.007% of transactions) and contribute just 0.5% of total revenue. This suggests that overall revenue is driven primarily by high-frequency, low-value daily purchases rather than occasional bulk orders.
-- Coffee is the primary revenue driver ($270K), followed by Tea ($196K). Together, beverages account for the majority of total sales, while categories like Bakery and Coffee Beans contribute smaller shares.
+- The **median transaction value is $3.75**, indicating that most purchases are small individual items such as drinks.
+- Rare bulk purchases exist (up to **$360**), but they represent a very small percentage of transactions.
+- Overall revenue is primarily driven by **high-frequency, low-value purchases**, typical of coffee shop businesses.
+
+### Product Performance
+
+- **Coffee is the primary revenue driver**, accounting for roughly **38% of total revenue**.
+- **Tea is the second-largest category**, contributing approximately **28%**.
+- Together, beverage products generate **the majority of the store's revenue**.
+
+### Store Performance
+
+- Revenue across the three store locations is **very similar**, suggesting consistent performance across locations.
+- Hell's Kitchen generates slightly higher revenue, but the difference is small.
+
+### Customer Activity Patterns
+
+- Customer traffic peaks during the **morning hours**, particularly between **8 AM and 10 AM**.
+- This confirms the typical **morning coffee demand pattern** seen in coffee shops.
+
 
 ## Revenue by Product Category
+
+To understand which types of products drive the business, total revenue was aggregated by **product category**.
+
+This analysis helps identify the **primary revenue sources** for the coffee shop and highlights which product groups have the greatest impact on overall sales.
+
+Understanding category-level performance can support decisions related to:
+
+- menu design
+- promotional campaigns
+- inventory prioritization
 
 ![Revenue by Category](outputs/revenue_by_category.png)
 
 ## Monthly Revenue Trend
 
-This chart shows how total revenue changes month to month across the dataset.
+To analyze how business performance changes over time, total revenue was aggregated **by month**.
 
-- Revenue increases steadily from January through June.
-- The strongest months occur in late spring and early summer, suggesting seasonal growth or increased customer demand.
-- This trend indicates that overall business performance is driven by consistent daily purchases rather than rare bulk transactions.
+This visualization highlights overall **sales growth patterns and potential seasonal effects** within the dataset.
+
+Identifying revenue trends helps businesses anticipate demand changes and plan inventory, staffing, and promotions accordingly.
 
 ![Monthly Revenue Trend](outputs/monthly_revenue_trend.png)
 
-## Busiest Hours of the Day
+## Transactions by Hour (Busiest Times of Day)
 
-This chart shows the number of transactions by hour.
+Customer activity was analyzed by counting the **number of transactions per hour** throughout the day.
 
-- The peak hours represent the busiest times for the coffee shop.
-- This insight can guide staffing decisions, inventory prep, and promotion timing.
-- In future analysis, we can compare peak hours by store location.
+This analysis helps identify peak demand periods and provides insights that can support:
+
+- staffing optimization
+- preparation of inventory
+- targeted promotional timing
 
 ![Transactions by Hour](outputs/transaction_by_hour.png)
 
 ## Revenue by Store Location
 
-- Total revenue is very similar across all three store locations.
-- Hell’s Kitchen generated the highest revenue (~$236K), but only slightly above Astoria and Lower Manhattan.
-- This suggests store performance is consistent, and overall revenue growth is driven more by product demand than location.
+To compare store performance, total revenue was calculated for each store location.
+
+This analysis helps determine whether revenue growth is driven by **location performance** or **product demand**.
+
+Understanding location differences can help inform expansion strategy, staffing allocation, and operational improvements.
 
 ![Revenue by Store Location](outputs/revenue_by_store.png)
 
 ## Top Coffee Products by Revenue
 
-After identifying Coffee as the largest revenue category, we drilled down into individual coffee products to identify the highest-performing items.
+After identifying coffee as the largest revenue category, the analysis drills down into **individual coffee products**.
 
-This helps inform inventory planning and targeted promotions for the most profitable drinks.
+This helps determine which specific drinks contribute most to revenue and can guide:
+
+- menu optimization
+- targeted marketing promotions
+- inventory planning
 
 ![Top Coffee Products](outputs/top_coffee_products.png)
 
 ## Average Order Value (AOV)
 
-The average order value across all transactions is **$4.69 per purchase**, indicating that most customers make relatively small daily purchases typical of a coffee shop environment.
+Average Order Value (AOV) measures the **average revenue generated per transaction**.
+
+This metric helps businesses understand **typical customer spending behavior** and evaluate pricing strategies.
+
+AOV was calculated both **across all transactions** and **by store location** to determine whether customer spending patterns differ between locations.
 
 When comparing store locations:
 
